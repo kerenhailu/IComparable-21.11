@@ -9,14 +9,17 @@ namespace Compare21._11
     internal class Director
     {
         int wage;
-        int WorkingUnder;
+        int workingUnder;
+
         //Director(int wage,int WorkingUnder)
         //{
         //    this.wage=wage;
         //    this.WorkingUnder=WorkingUnder;
         //}
 
-        //public int Wage { get; set; }
-        //public int WorkingUnder { get; set; }
+
+//property
+        public int Wage { get; set; }
+        public int WorkingUnder { get; set; }
     }
 }

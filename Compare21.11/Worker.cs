@@ -8,7 +8,7 @@ namespace Compare21._11
 {
     internal class Worker :User
     {
-        Worker(string name, string email, int yearOld) : base(name,email,yearOld) {
+      public  Worker(string name, string email, int yearOld) : base(name,email,yearOld) {
             
         }
     }

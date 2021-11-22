@@ -20,10 +20,10 @@ Console.WriteLine("Hello, World!");
 //bus1.Company = "harel";
 //Console.WriteLine(bus1.Company);
 
-Truck truck1 = new Truck("mazda", 500, "red", 3, "truck");
-Truck truck2 = new Truck("fiat", 400, "blue", 1, "truck");
-Truck truck3 = new Truck("suzuki", 600, "black", 4, "truck");
-Truck truck4 = new Truck("honda", 100, "yellow", 2, "truck");
+//Truck truck1 = new Truck("mazda", 500, "red", 3, "truck");
+//Truck truck2 = new Truck("fiat", 400, "blue", 1, "truck");
+//Truck truck3 = new Truck("suzuki", 600, "black", 4, "truck");
+//Truck truck4 = new Truck("honda", 100, "yellow", 2, "truck");
 
 //Truck.PrintDetails(truck1.model, truck1.volumeEngine, truck1.color, truck1.numberOfSeats, truck1.name);
 //truck1.PrintDetails();
@@ -43,33 +43,58 @@ Truck truck4 = new Truck("honda", 100, "yellow", 2, "truck");
 //    ArrayTruck[i].PrintDetails();
 //}
 //שאלה 9
-Rectangle rectangle1 = new Rectangle(8, 9);
-Console.WriteLine(rectangle1);
-Console.WriteLine(rectangle1.Area());
+//Rectangle rectangle1 = new Rectangle(8, 9);
+//Console.WriteLine(rectangle1);
+//Console.WriteLine(rectangle1.Area());
 
-Reboa reboa1 = new Reboa(12, 8);
-Console.WriteLine(reboa1);
-Console.WriteLine(reboa1.Area());
+//Reboa reboa1 = new Reboa(12, 8);
+//Console.WriteLine(reboa1);
+//Console.WriteLine(reboa1.Area());
 
 //שאלה 2
-User user1=new User("keren","keren@gmail.com",1998);
-User user2=new User("tikva", "tikva@gmail.com", 1995);
-User user3=new User("yafit", "yafit@gmail.com", 1993);
-User user4=new User("eden", "eden@gmail.com", 1994);
-User user5=new User("igal","igal@gmail.com",1997);
-Console.WriteLine(user1);
-User[] ArrayUsers= new User[] { user1, user2, user3, user4, user5 };
+//User user1=new User("keren","keren@gmail.com",1998);
+//User user2=new User("tikva", "tikva@gmail.com", 1995);
+//User user3=new User("yafit", "yafit@gmail.com", 1993);
+//User user4=new User("eden", "eden@gmail.com", 1994);
+//User user5=new User("igal","igal@gmail.com",1997);
+//Console.WriteLine(user1);
+//User[] ArrayUsers= new User[] { user1, user2, user3, user4, user5 };
 
-for(int i = 0; i < ArrayUsers.Length; i++)
-{
-    ArrayUsers[i].Print();
-}
-Array.Sort(ArrayUsers);
+//for(int i = 0; i < ArrayUsers.Length; i++)
+//{
+//    ArrayUsers[i].Print();
+//}
+//Array.Sort(ArrayUsers);
 
-for (int i = 0; i < ArrayUsers.Length; i++)
-{
-    ArrayUsers[i].Print();
-}
+//for (int i = 0; i < ArrayUsers.Length; i++)
+//{
+//    ArrayUsers[i].Print();
+//}
+
+//==================================================
+//שאלה 3
+Developer Developer1 = new Developer();
+
+Developer1.name = Console.ReadLine();
+Console.WriteLine(Developer1.name);
+
+Developer1.lname = Console.ReadLine();
+Console.WriteLine(Developer1.lname);
+
+Developer1.age = int.Parse(Console.ReadLine());
+Console.WriteLine(Developer1.age);
+//===========================
+Developer Developer2 = new Developer();
+Developer2.name = Console.ReadLine();
+Console.WriteLine(Developer2.name);
+
+Developer2.lname = Console.ReadLine();
+Console.WriteLine(Developer2.lname);
+
+Developer2.age = int.Parse(Console.ReadLine());
+Console.WriteLine(Developer2.age);
+
+
 //=======================================================================
 //שאלה 4
 
@@ -78,7 +103,8 @@ for (int i = 0; i < ArrayUsers.Length; i++)
 //Worker worker3 = new Worker("loli", "loli@gmail.com", 1999);
 //Worker worker4 = new Worker("dan", "dan@gmail.com", 1988);
 
-//Worker[] ArrayWorkers = new Worker[] { Worker1, Worker2, Worker3, Worker4};
+
+//Worker[] ArrayWorkers = new Worker[] { worker1, worker2, worker3,worker4 };
 
 //for (int i = 0; i < ArrayWorkers.Length; i++)
 //{
